@@ -2,14 +2,15 @@ package n1ex1;
 
 public abstract class Instrument {
 
-    String nom;
-    float preu;
-    public Instrument(String nom, float preu){
+    private String nom;
+    private float preu;
+    protected Instrument(String nom, float preu){
         this.nom = nom;
         this.preu = preu;
     }
 
-    static void tocar(){}
+    public static void tocar() {
+    }
 
     public static void main(String[] args) {
 
@@ -25,27 +26,5 @@ public abstract class Instrument {
     }
 }
 
-class Vent extends Instrument{
-
-    public Vent(String nom, float preu) {
-        super(nom, preu);
-    }
-
-    static void tocar(){
-        System.out.println("Està sonant un instrument de vent");
-    }
-
-}
 
 
-
-class Percussio extends Instrument{
-
-    public Percussio(String nom, float preu) {
-        super(nom, preu);
-    }
-
-    static void tocar(){
-        System.out.println("Està sonant un instrument de percussió");
-    }
-}
