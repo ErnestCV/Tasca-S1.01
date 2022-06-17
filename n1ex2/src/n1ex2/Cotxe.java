@@ -14,7 +14,7 @@ public class Cotxe {
     }
 
     //Constructor amb model i potencia
-    protected Cotxe(String model, int potencia) {
+    public Cotxe(String model, int potencia) {
         this.model = model;
         this.potencia = potencia;
     }
