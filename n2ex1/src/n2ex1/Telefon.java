@@ -10,7 +10,7 @@ public class Telefon {
         this.model = model;
     }
 
-    void trucar(String numTelefon){
+    public void trucar(String numTelefon){
 
         System.out.println("S'està trucant al: " + numTelefon);
 
