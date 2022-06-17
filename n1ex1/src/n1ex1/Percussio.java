@@ -16,7 +16,7 @@ class Percussio extends Instrument{
         super(nom, preu);
     }
 
-    public static void tocar(){
+    public void tocar(){
         System.out.println("Està sonant un instrument de percussió");
     }
 }

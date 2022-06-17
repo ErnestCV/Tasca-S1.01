@@ -18,24 +18,21 @@ public abstract class Instrument {
 
     private String nom;
     private float preu;
-    protected Instrument(String nom, float preu){
+    public Instrument(String nom, float preu){
         this.nom = nom;
         this.preu = preu;
     }
 
-    public static void tocar() {
-    }
+    public abstract void tocar();
 
     public static void main(String[] args) {
 
-        //Per carregar una classe podem:
-
         //Crear una instància d'una classe
-        Vent violi = new Vent("Violi", 200);
-        violi.tocar();
+        Vent flauta = new Vent("Flauta", 200);
+        flauta.tocar();
 
-        //Accedir a un membre estàtic d'una classe
-        Corda.tocar();
+        Corda violi = new Corda("Violi", 300);
+
 
     }
 }
