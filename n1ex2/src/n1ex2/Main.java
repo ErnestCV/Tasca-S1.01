@@ -1,6 +1,6 @@
 package n1ex2;
 
-class Main {
+public class Main {
     public static void main(String[] args) {
 
         //Invoquem el mètode no estàtic
