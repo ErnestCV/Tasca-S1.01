@@ -1,6 +1,6 @@
 package n1ex1;
 
-class Corda extends Instrument{
+public class Corda extends Instrument{
 
     //Bloc d'inicialització estàtic, s'inicialitza en carregar la classe
     static {
@@ -12,7 +12,7 @@ class Corda extends Instrument{
         System.out.println("Inic. no estàtic - Corda");
     }
 
-    protected Corda(String nom, float preu) {
+    public Corda(String nom, float preu) {
         super(nom, preu);
     }
 

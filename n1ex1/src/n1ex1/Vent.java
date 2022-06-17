@@ -1,6 +1,6 @@
 package n1ex1;
 
-class Vent extends Instrument{
+public class Vent extends Instrument{
 
     //Bloc d'inicialització estàtic, s'inicialitza en carregar la classe
     static {
@@ -12,7 +12,7 @@ class Vent extends Instrument{
         System.out.println("Inic. no estàtic - Vent");
     }
 
-    protected Vent(String nom, float preu) {
+    public Vent(String nom, float preu) {
         super(nom, preu);
     }
 

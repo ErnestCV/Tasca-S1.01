@@ -1,6 +1,6 @@
 package n1ex1;
 
-class Percussio extends Instrument{
+public class Percussio extends Instrument{
 
     //Bloc d'inicialització estàtic, s'inicialitza en carregar la classe
     static {
@@ -12,7 +12,7 @@ class Percussio extends Instrument{
         System.out.println("Inic. no estàtic - Percussio");
     }
 
-    protected Percussio(String nom, float preu) {
+    public Percussio(String nom, float preu) {
         super(nom, preu);
     }
 
