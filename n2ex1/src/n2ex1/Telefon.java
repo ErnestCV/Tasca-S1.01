@@ -2,8 +2,8 @@ package n2ex1;
 
 public class Telefon {
 
-    final String marca;
-    final String model;
+    private final String marca;
+    private final String model;
 
     public Telefon(String marca, String model) {
         this.marca = marca;
