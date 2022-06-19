@@ -31,7 +31,7 @@ public abstract class Instrument {
         Vent flauta = new Vent("Flauta", 200);
         flauta.tocar();
 
-        Corda violi = new Corda("Violi", 300);
+        Corda violi = new Corda("Violi", 400);
 
 
     }
