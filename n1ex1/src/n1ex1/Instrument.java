@@ -16,7 +16,7 @@ public abstract class Instrument {
 
     //S'inicialitza la classe primària primer, després la secundària
 
-    private String nom;
+    private final String nom;
     private float preu;
     public Instrument(String nom, float preu){
         this.nom = nom;
@@ -31,7 +31,7 @@ public abstract class Instrument {
         Vent flauta = new Vent("Flauta", 200);
         flauta.tocar();
 
-        Corda violi = new Corda("Violi", 400);
+        Corda violi = new Corda("Violi", 450);
 
 
     }
