@@ -18,7 +18,7 @@ public class Telefon {
 
     public static void main(String[] args) {
 
-        Smartphone smartphone = new Smartphone("Xiaomi", "12 Pro");
+        Smartphone smartphone = new Smartphone("Xiaomi", "12");
 
         smartphone.alarma();
         smartphone.fotografiar();
